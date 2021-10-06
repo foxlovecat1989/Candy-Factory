@@ -1,0 +1,11 @@
+package com.candyfactory.catalog;
+
+import java.math.BigDecimal;
+
+import lombok.Data;
+
+@Data
+public class Item {
+	final private String title;
+    final private BigDecimal price;
+}
